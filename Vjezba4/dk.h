@@ -10,7 +10,7 @@ public:
     void set_tacka(double, double);
     void change(double, double);
     double dist(TACKA&);
-    double get_x();
-    double get_y();
+    inline double get_x();
+    inline double get_y();
 
 };
