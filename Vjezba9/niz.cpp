@@ -31,10 +31,10 @@ void add(int broj, niz &b){
 }
 
 int operator==(const niz &d1, const niz &d2){
-    if ( d1.n != d2.n ){
+    if ( d1.t != d2.t ){
         return 0;
     }else{
-        for (int i=0;i<d1.n;i++){
+        for (int i=0;i<d1.t;i++){
             if ( d1.a[i] != d2.a[i] ){
                 return 0;
             }
